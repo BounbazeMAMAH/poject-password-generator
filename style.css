@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(3, 3, 120);
+  color: white;
+  padding: 100px 70px;
+}
+h1{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+h1 span{
+  padding-top: 10px;
+  color: rgb(10, 248, 204);
+  border-bottom: 1px solid rgb(10, 248, 204);
+  padding-bottom: 5px;
+}
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  background-color: white;
+  padding: 10px 5px;
+  margin-top: 30px;
+}
+.display img{
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.display input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  width: 100%;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: rgb(10, 248, 204);
+  margin-top: 20px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.btn img{
+  width: 20px;
+}
+
+.paragraph{
+  background-color: black;
+  font-size: 12px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 7px;
+  position: absolute;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 14px solid rgb(0, 0, 0);
+  position: relative;
+  bottom: -20px;
+  right: -16px;
+}
+.dialogue{
+  position: absolute;
+  left: 420px ;
+  top: 135px;
+}
+  
